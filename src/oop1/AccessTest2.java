@@ -7,7 +7,7 @@ public class AccessTest2 {
         Test4 object = new Test4();
 
         // These are OK, a and b may be accessed directly
-      //  object.a = 10;
+      //object.a = 10;
         object.b = 20;
 
         // This is not OK and will cause an error
